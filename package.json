@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-render",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/server/index.ts",
+    "build-assets": "bun scripts/build-assets.ts",
+    "bake": "bun scripts/bake.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "bun-types": "^1.4.4",
+    "fast-png": "^8.0.0",
+    "typescript": "^7.0.2"
+  }
+}

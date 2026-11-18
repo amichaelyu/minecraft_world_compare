@@ -1,0 +1,16 @@
+spike/out/
+node_modules/
+cache/
+dist/
+worlds.local.json
+.DS_Store
+spike/.venv/
+# world data: never commit (worlds live outside the repo; see README)
+*.mca
+*.mcc
+level.dat
+level.dat_old
+region/
+dimensions/
+San-Francisco/
+Arnis World*/

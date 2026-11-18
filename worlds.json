@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sf",
+    "name": "SF replica (reference)",
+    "path": "../San-Francisco",
+    "transform": { "s": 1, "thetaDeg": 0, "tx": 0, "tz": 0, "ty": 0 }
+  },
+  {
+    "id": "arnis",
+    "name": "Arnis",
+    "path": null,
+    "transform": { "s": 1.0002, "thetaDeg": 99.1055, "tx": 5073.25, "tz": -6502.72, "ty": 5 }
+  }
+]
